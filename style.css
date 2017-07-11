@@ -1,0 +1,42 @@
+body {
+  background: #666699;
+  color: white;
+  font-size: 13px;
+  align-items: center;
+}
+
+.wrapper {
+  visibility: visible;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  background: rgba(0, 102, 0, 0.5);
+  padding: 10px 10px;
+  margin: 20px auto;
+}
+
+input, .modal {
+  color: black;
+}
+
+th {
+  background-color: rgba(0, 102, 0, 0.7);
+  font-size: 16px;
+}
+
+tr {
+  font-size: 13px;
+}
+
+table, th, tr {
+  background-color: rgba(100, 0, 0, 0.2);
+}
+
+#flMsg{
+  justify-content: center;
+  align-items: center;
+  width:40%;
+  margin: 0% 30%;
+}

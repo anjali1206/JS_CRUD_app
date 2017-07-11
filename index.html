@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>JS-CRUD App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <html>
+
+<head>
+  <title>CRUD App</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="wrapper">
+        <div class="col-xs-12">
+          <h2>Create a User:</h2>
+          <form id="addUser" action="">
+            <div class="form-group">
+              <label for="firstname">Firstname:</label>
+              <input class="form-control" type="text" name="firstname" required>
+            </div>
+            <div class="form-group">
+              <label for="lastname">Lastname:</label>
+              <input class="form-control" type="text" name="lastname" required>
+            </div>
+            <div class="form-group">
+              <label for="placeOfBirth">Place Of Birth:</label>
+              <input class="form-control" type="text" name="placeOfBirth" required>
+            </div>
+            <div class="form-group">
+              <label for="zipcode">Zipcode:</label>
+              <input class="form-control" type="text" name="zipcode" maxLength="5" required>
+            </div>
+            <button class="btn btn-primary form-control" type="submit" id="sub">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="uList">
+      <div class="col-xs-12">
+        <h2>User List:<h2>
+            <table id="userTable" class="table">
+              <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Place Of Birth</th>
+                <th colspan="3">Zipcode</th>
+              </tr>
+            </table>
+        </div>
+    </div>
+      
+  </div>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document"> 
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Update User Information:</h4>
+        </div>
+    
+        <div class="modal-body"></div>
+        <div class="modal-footer"></div>
+      </div>
+    
+    </div>
+  </div>
+    
+  </body>
+</html>
+  
+
+  <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  <script src="js/index.js"></script>
+
+</body>
+</html>
