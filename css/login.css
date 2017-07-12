@@ -1,0 +1,11 @@
+body {
+  	background-image: url("https://res.cloudinary.com/starwars/image/upload/v1485215083/bridge-1385938_960_720_c9b0xx.jpg") !important;
+	background-attachment: fixed;
+	background-size:cover;
+	background-repeat: no-repeat;
+  	color: white;
+  	font-size: 13px;
+  	align-items: center;
+}
+
+	
