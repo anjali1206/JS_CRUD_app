@@ -2,3 +2,7 @@
 [0712/152235.951:INFO:rc_l10n_handler.cc(137)] Trying language from system preferred list: en-US
 [0712/152235.951:INFO:rc_l10n_handler.cc(180)] Retrying after adjustments: en-US
 [0712/152235.951:INFO:rc_l10n_handler.cc(137)] Trying language from system preferred list: en
+[0712/154741.479:INFO:rc_l10n_handler.cc(131)] Language not in the available languages list: en-US
+[0712/154741.487:INFO:rc_l10n_handler.cc(137)] Trying language from system preferred list: en-US
+[0712/154741.488:INFO:rc_l10n_handler.cc(180)] Retrying after adjustments: en-US
+[0712/154741.488:INFO:rc_l10n_handler.cc(137)] Trying language from system preferred list: en

@@ -13,13 +13,6 @@ var users = [
     lastname: "Galler",
     placeOfBirth: "Georgia",
     zipcode: 21345
-  },
-  {
-    id: 3,
-    firstname: "Joey",
-    lastname: "Tribiani",
-    placeOfBirth: "California",
-    zipcode: 32145
   }
 ];
 
